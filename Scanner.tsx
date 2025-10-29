@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
-import { postAttendance } from '../services/googleSheetsService';
-import { AttendanceResponse } from '../types';
-import { FlashIcon } from './icons';
+import { postAttendance } from '../services/googleSheetsService.ts';
+import { AttendanceResponse } from '../types.ts';
+import { FlashIcon } from './icons.tsx';
 
 // Declare html5QrCode in the window scope
 declare global {
