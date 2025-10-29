@@ -1,7 +1,7 @@
 import { jsPDF } from 'jspdf';
 import autoTable from 'jspdf-autotable';
 import * as XLSX from 'xlsx';
-import { amiriFont } from './AmiriFont';
+import { amiriFont } from './AmiriFont.ts';
 
 /**
  * Exports data to an Excel file (.xlsx).
