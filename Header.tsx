@@ -1,6 +1,6 @@
 import React from 'react';
-import { AppView } from '../types';
-import { ReportIcon, ScanIcon } from './icons';
+import { AppView } from '../types.ts';
+import { ReportIcon, ScanIcon } from './icons.tsx';
 
 interface HeaderProps {
   setView: (view: AppView) => void;
