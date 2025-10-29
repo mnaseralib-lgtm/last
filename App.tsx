@@ -1,8 +1,8 @@
 import React, { useState, useCallback } from 'react';
-import Scanner from './components/Scanner';
-import Reports from './components/Reports';
-import Header from './components/Header';
-import { AppView } from './types';
+import Scanner from './components/Scanner.tsx';
+import Reports from './components/Reports.tsx';
+import Header from './components/Header.tsx';
+import { AppView } from './types.ts';
 
 const App: React.FC = () => {
   const [view, setView] = useState<AppView>(AppView.SCANNER);
