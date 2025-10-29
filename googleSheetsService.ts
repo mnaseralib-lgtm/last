@@ -1,4 +1,4 @@
-import { AttendanceResponse, ReportData, ReportType } from '../types';
+import { AttendanceResponse, ReportData, ReportType } from '../types.ts';
 
 // The user's latest provided URL.
 const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwRtPYKLPkl58atPByBKtMx6aNy4-yklZypgs3c7vOl-hQknJ8G-itvemHp5cHpnhJl/exec';
