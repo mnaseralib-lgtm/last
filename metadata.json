@@ -1,0 +1,7 @@
+{
+  "name": "Smart Employee Attendance",
+  "description": "A PWA for smart employee attendance tracking using QR codes, with reporting and data export functionalities integrated with Google Sheets.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
